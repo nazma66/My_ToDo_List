@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="Base.Theme.My_ToDo_List.MainActivity"
+    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+
+
+
+    <item android:id="@+id/task_list"
+        android:title="Task Lists"
+        app:showAsAction="never"
+
+        ></item>
+
+    <item android:id="@+id/add_media"
+        android:title="Add Media"
+        app:showAsAction="never"
+        >
+        <menu>
+        <item
+            android:id="@+id/action_camera"
+            android:title="Camera"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_gallery"
+            android:title="From Gallery"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_video"
+            android:title="Make video"
+            app:showAsAction="never" />
+    </menu>
+    </item>
+
+    <item android:id="@+id/more_apps"
+        android:title="Add Contact"
+        app:showAsAction="never"
+        >  <menu>
+        <item
+            android:id="@+id/action_dial"
+            android:title="Dial"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_Contact_list"
+            android:title="Contact List"
+            app:showAsAction="never" />
+
+    </menu></item>
+
+    <item android:id="@+id/feedback"
+        android:title="Send Feedback"
+        app:showAsAction="never"
+        ></item>
+    <item android:id="@+id/invite"
+        android:title="Invite friends to the App"
+        app:showAsAction="never"
+        ></item>
+    <item android:id="@+id/follow"
+        android:title="Follow us"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/action_Facebook"
+                android:title="Facebook"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_Whatsapp"
+                android:title="Whatsapp"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_message"
+                android:title="Send Message"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_instagram"
+                android:title="Instagram"
+                app:showAsAction="never" />
+
+
+        </menu>
+    </item>
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never"
+        ></item>
+
+</menu>
