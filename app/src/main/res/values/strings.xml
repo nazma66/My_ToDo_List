@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">My_ToDo_List</string>
+
+    <string-array name="chittagongthana">
+        <item>
+            Raozan
+        </item>
+        <item>
+            Banskhali
+        </item>
+        <item>
+Boalkhali
+        </item>
+        <item>
+Fatikchari
+        </item>
+
+    </string-array>
 </resources>

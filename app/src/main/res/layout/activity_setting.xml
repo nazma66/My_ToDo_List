@@ -8,34 +8,44 @@
     android:orientation="vertical">
 
 
-
-
-
-   <TextView
+   <Switch
+       android:id="@+id/switch1"
        android:layout_width="match_parent"
-       android:layout_height="50dp"
-       android:textColor="@color/black"
-       android:text="Settings"
-       android:textSize="22sp"
-       android:textAppearance="@color/black"
-       android:gravity="center"
-       android:background="#CA7FD6"
-       ></TextView>
-
-   <ListView
-       android:id="@+id/lv1"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:background="#72818F"
-       android:dividerHeight="4dp"
-       android:listSelector="#EAEEF1"
-       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_height="87dp"
+       android:layout_marginTop="150dp"
+       android:text="DARK THEME"
+       android:textOff="Off"
+       android:textOn="On"
+       app:layout_constraintBottom_toTopOf="@+id/switch2"
        app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.0"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.129" />
+       app:layout_constraintTop_toTopOf="parent" />
 
+   <Switch
+       android:id="@+id/switch2"
+       android:layout_width="match_parent"
+       android:layout_height="86dp"
+       android:layout_marginBottom="117dp"
+       android:checked="true"
+       android:text="lIGHT THEME"
+       android:textOff="Off"
+       android:textOn="On"
+       app:layout_constraintBottom_toTopOf="@+id/button"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="151dp"
+       android:layout_height="58dp"
+       android:layout_marginStart="108dp"
+       android:layout_marginBottom="362dp"
+       android:background="@color/black"
+       android:text="okay"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/switch2" />
 
 
 </LinearLayout>
